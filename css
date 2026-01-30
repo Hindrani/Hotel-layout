@@ -1,0 +1,77 @@
+.sidebar a.highlight {
+    color: yellow;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* Main Content */
+.main {
+    margin-left: 220px;
+    padding: 20px;
+    background-color: #eee;
+    min-height: 100vh;
+}
+
+/* Image Row */
+.image-row {
+    display: flex;
+    gap: 20px;
+}
+
+.image-row img {
+    width: 23%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Card Section */
+.card {
+    margin-top: 20px;
+    border: 12px solid #ff7043;
+    background-color: #777;
+    padding: 20px;
+    color: white;
+}
+
+
+
+.card button:hover {
+    background-color: #bbb;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="sidebar">
+    <a href="#" class="highlight">Home</a>
+    <a href="#">Dining</a>
+    <a href="#" class="highlight">Spa</a>
+    <a href="#">Rooms</a>
+    <a href="#" class="highlight">Contact us</a>
+</div>
+
+
+<div class="main">
+
+    <!-- Images -->
+    <div class="image-row">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0" alt="Dining">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Nature">
+    </div>
+
+    
+    <div class="card">
+        <h3>Header</h3>
+        <p>Lorem ipsum lorem ipsum lorem ipsum</p>
+        <button>Click</button>
+    </div>
+
+</div>
+
+</body>
+</html>
